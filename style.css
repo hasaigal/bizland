@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Open Sans' sans-serif;
+}
+
+
+
+/* navbar start */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+/* navbar end */
+
+
+
+/* background overlay start */
+.backgound-image-1 {
+    height: 75vh;
+    background: url(assets/images/hero-bg.jpg) top left;
+    background-size: cover;
+}
+
+.overlay-1 {
+    background-color: rgba(214, 225, 232, 0.75);
+}
+
+/* background overlay end */
+
+
+
+/* Global heading for each section */
+.heading {
+    background-color: #E7F1FD;
+}
+/* Global heading for each section */
+
+
+
+/* Global backgound-color*/
+.bg-color{
+    background-color: #F6F9FE;
+}
+/* Global backgound-color*/
+
+
+
+/* prograss bar */
+.progress {
+    height: 10px;
+}
+/* prograss bar */
+
+
+/* carousel */
+.carousel-background{
+    background: url("assets/images/testimonials-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* height: 40vh; */
+}
+
+
+.carousel-item img {
+    width: 100px;
+}
+
+
+.carousel-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-indicators button{
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+/* carousel */
+
+
+/* accordion start */
+.accordion-button:after {
+    order: -1; 
+    margin-left: 0; 
+    margin-right: 0.5em; 
+}
+/* accordion end */
+
+
+
+/* footer section */
+.links li, .services li{
+    padding: 5px 0;
+}
+
+
+.bx-map,
+.bx-envelope,
+.bx-phone-call {
+    border-style: dotted;
+}
+
+
+/* footer section */
+
+
+.bxs-quote-alt-right{
+    position: relative;
+    top: 10px;
+}
+
+
+/* .progress{
+    background-color: #0d6efd;
+    opacity: 10%;
+} */
